@@ -11,4 +11,4 @@ rospy.init_node('topic_subscriber')     # initialize node 'init_node' which is t
 sub = rospy.Subscriber('counter', Int32, callback) 
 
 # the node keeps running till it stopped in terminal 
-rospy.spin() 
+rospy.spin()
